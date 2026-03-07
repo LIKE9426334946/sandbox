@@ -1,4 +1,11 @@
 # os 模块是 Python 标准库中用于 与操作系统交互 的模块，常见用途包括 文件与目录操作、路径处理、环境变量管理、执行系统命令等。
+# 以下注释代码放在notebook中，可以直接运行
+"""
+%cd /kaggle/working
+!rm -rf /kaggle/working/sandbox
+!git clone https://github.com/LIKE9426334946/sandbox.git
+!python3 sandbox/module_file/test_os.py
+"""
 import os
 
 # 获取当前工作目录
