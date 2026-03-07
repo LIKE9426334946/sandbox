@@ -15,8 +15,8 @@ print("当前工作目录为",os.getcwd())
 os.chdir("/kaggle")
 
 # 创建文件夹
-os.mkdir("demo")
-os.mkdir("demo1")
+os.makedirs("demo",exist_ok=True)
+os.makedirs("demo1",exist_ok=True)
 
 # 创建多级文件夹
 os.makedirs("a/b/c")
