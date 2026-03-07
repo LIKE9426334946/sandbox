@@ -17,3 +17,4 @@ with open("./one.yaml","r",encoding='utf-8') as f:
 print("app.name = ", data["app"]["name"])
 
 print("database.port = ", data["database"]["port"])
+print("运行完毕")
