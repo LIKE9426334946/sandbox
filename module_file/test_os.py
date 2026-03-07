@@ -2,7 +2,7 @@
 import os
 
 # 获取当前工作目录
-print(os.getcwd())
+print("当前工作目录为",os.getcwd())
 
 # 切换工作目录
 os.chdir("/kaggle")
@@ -40,13 +40,14 @@ print(os.environ.get("HOME"))
 os.environ["MY_VAR"] = "hello"
 
 os.system("ls")
+os.system("touch demo/one.txt")
 
-for root, dirs, files in os.walk("dataset"):
+for root, dirs, files in os.walk("demo"):
     print("当前目录:", root)
     print("子目录:", dirs)
     print("文件:", files)
 
-data_dir = "dataset"
+data_dir = "demo"
 
 for file in os.listdir(data_dir):
     path = os.path.join(data_dir, file)
