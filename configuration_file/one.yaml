@@ -1,0 +1,22 @@
+# one.yaml
+# 用于Python读取测试
+
+app:
+  name: demo_app
+  version: 1.0
+
+database:
+  host: localhost
+  port: 5432
+  username: admin
+  password: 123456
+
+features:
+  enable_login: true
+  enable_signup: false
+
+users:
+  - name: Alice
+    age: 25
+  - name: Bob
+    age: 30
